@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -22,8 +21,7 @@ body {
     margin: 10px 0;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
-    font-size: 14px;
-    font-weight: 700;
+    font: 700 14px 'Open Sans', sans-serif; 
     color: #fff;
 }
 
@@ -46,16 +44,14 @@ body {
     align-items: center;
     z-index: 10;
     box-shadow: 0 0 0 1px rgba(241, 170, 176, 0.226);
-    font-size: 3em;
-    font-weight: 300;
+    font: 300 3em 'Open Sans', sans-serif; 
     background-color: #F24957;
 }
 
 .clock .box-time .time span:nth-child(2) {
     height: 30px;
     letter-spacing: 0.2em;
-    font-size: 0.7em;
-    font-weight: 500;
+    font: 500 0.7em 'Open Sans', sans-serif; 
     z-index: 9;
     box-shadow: none;
     text-transform: uppercase;
